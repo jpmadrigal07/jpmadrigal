@@ -303,28 +303,25 @@ section.cta {
   -o-background-size: cover;
   background-position: center;
   background-image: url('../img/bg-cta.png');
-  padding: 250px 0;
 }
 section.cta .cta-content {
   position: relative;
   z-index: 1;
 }
-section.cta .cta-content h2 {
+section.cta .cta-content h2, h3, p {
   margin-top: 0;
   margin-bottom: 25px;
   color: white;
-  max-width: 450px;
-  font-size: 50px;
 }
-@media (min-width: 768px) {
-  section.cta .cta-content h2 {
-    font-size: 80px;
-  }
+section.cta .cta-content h3 {
+    border: 0;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
 }
 section.cta .overlay {
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   top: 0;
   left: 0;
@@ -416,6 +413,20 @@ footer ul li a.active {
   color: white;
   background-color: #ff5722;
   border-color: #ff5722;
+}
+.btn-outline1 {
+  color: white;
+  border-color: white;
+  border: 1px solid;
+  margin: 10px;
+}
+.btn-outline1:hover,
+.btn-outline1:focus,
+.btn-outline1:active,
+.btn-outline1.active {
+  color: #ff5722;
+  background-color: #fff;
+  border-color: #fff;
 }
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
