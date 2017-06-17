@@ -360,7 +360,9 @@ section.cta .overlay {
   top: 0;
   left: 0;
 }
-section.contact {
+section.contact .container {
+  padding-bottom: 80px;
+  padding-top: 80px;
 }
 section.contact h2 {
   margin-top: 0;
@@ -400,7 +402,7 @@ footer ul li a.active {
   text-decoration: none;
 }
 .bg-primary {
-  background: #ff7246;
+  background: #ff5722;
 }
 .text-primary {
   color: #fdcc52;
